@@ -67,8 +67,9 @@ a:hover, .btn:hover, button:hover, .button:hover {box-shadow: none !important;op
 .archive.woocommerce-page .boxed-layout-header, .search .boxed-layout-header {padding-bottom: 60px;}
 .hestia-title {font-weight: 300;}
 .carousel {-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;}
-@media (max-width: 600px) {.carousel .hestia-title {font-size: 20px;font-weight: 800;line-height: 55px;margin: 30px 0 25px;}}
-@media (min-width: 720px) {.carousel .hestia-title {font-size: 30px;font-weight: 800;line-height: 55px;margin: 30px 0 25px;}}
+@media (max-width: 900px) {.carousel .hestia-title {font-size: 20px;font-weight: 800;line-height: 55px;margin: 30px 0 25px;}}
+@media (min-width: 900px and max-width: 1200px) {.carousel .hestia-title {font-size: 30px;font-weight: 800;line-height: 55px;margin: 30px 0 25px;}}
+@media (min-width: 1201px) {.carousel .hestia-title {font-size: 50px;font-weight: 800;line-height: 55px;margin: 30px 0 25px;}}
 .carousel .sub-title {font-family: inherit;font-size: 19px;font-weight: 300;line-height: 26px;margin: 0 0 8px;}
 .carousel .buttons {margin: 30px 0 0;}
 .carousel .buttons a {-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;font-family: inherit;font-size: 14px;font-weight: 600;line-height: 24px;padding: 11px 30px;}
