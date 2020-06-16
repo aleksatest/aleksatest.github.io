@@ -10,8 +10,10 @@ a:not(.btn):not(.button):not(.added_to_cart):hover {opacity: .75;}
 body, .btn, .form-control, .woocommerce #reviews #comments label {font-size: 14px;}
 .navbar, .navbar a, .label, .footer .footer-menu a, .media-footer a, .hestia-top-bar {font-size: 12px;}
 body {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;font-weight: 300;line-height: 1.618;}
-@media (min-width: 1200px ) and (max-width: 1918px ) {ul, ol, .blog-post .section-text p, output {line-height: 1.618;font-size: 15px;}}
-@media (max-width: 721px ) {ul, ol, .blog-post .section-text p, output {line-height: 1.618;font-size: 13px;}}
+@media (min-width: 1200px ) and (max-width: 1918px ) {ul, ol, .blog-post .section-text p, output {line-height: 1.618;font-size: 15px;}
+	li {font-size: 15px;}}
+@media (max-width: 721px ) {ul, ol, .blog-post .section-text p, output {line-height: 1.618;font-size: 13px;}
+	li {font-size: 13px;}}
 h1, h2, h3, h4, h5, h6 {font-weight: 500;line-height: 1.618;}
 h5.description, h5.subscribe-description, .card-product .price h4, h4.author {font-weight: 300;}
 h6.category {font-weight: 500;}
