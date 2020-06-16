@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: 500;line-height: 1.618;}
 h5.description, h5.subscribe-description, .card-product .price h4, h4.author {font-weight: 300;}
 h6.category {font-weight: 500;}
 .hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce ul.products[class*="columns-"] li.product-category h2 {font-weight: 700;}
-.hestia-title {word-break: break-word;}
+.hestia-title {}
 button, input[type="submit"], input[type="button"], .btn {font-size: 12px;font-weight: 400;}
 .btn:not(.btn-just-icon):not(.btn-fab) i {font-size: 18px;}
 .btn.btn-just-icon {font-size: 20px;line-height: 20px;}
@@ -843,7 +843,8 @@ footer.footer.footer-black hr {border-color: rgba(255,255,255,.2);}
 #authors-on-blog .card-profile {text-align: left;}
 #authors-on-blog .col-ms-6:nth-child(2n+1) {clear: both;}
 .blog-post {word-wrap: break-word;}
-.blog-post .section-text {padding-bottom: 50px;padding-left: 0;padding-right: 0;margin-left: -50%;margin-right: -50%;}
+@media (min-width: 1199px) {.blog-post .section-text {padding-bottom: 50px;padding-left: 0;padding-right: 0;margin-left: -50%;margin-right: -50%;}}
+@media (max-width: 600px) {.blog-post .section-text {padding-bottom: 50px;padding-left: 0;padding-right: 0;}}
 .blog-post .section-text p {margin-bottom: 30px;}
 .blog-post .section-blog-info {padding-top: 15px;}
 .blog-post .section-blog-info .entry-categories span {font-size: 10px;}
