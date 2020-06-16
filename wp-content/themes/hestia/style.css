@@ -843,9 +843,9 @@ footer.footer.footer-black hr {border-color: rgba(255,255,255,.2);}
 #authors-on-blog .card-profile {text-align: left;}
 #authors-on-blog .col-ms-6:nth-child(2n+1) {clear: both;}
 .blog-post {word-wrap: break-word;}
-@media (min-width: 1919px) {.blog-post .section-text {padding-bottom: 50px;padding-left: 0;padding-right: 0;margin-left: -50%;margin-right: -50%;}}
-@media (min-width: 1200px ) and (max-width: 1918px ) {.blog-post .section-text {padding-bottom: 50px;padding-left: 0;padding-right: 0;margin-left: -20%;margin-right: -20%;}}
-@media (max-width: 600px) {.blog-post .section-text {padding-bottom: 50px;padding-left: 0;padding-right: 0;}}
+@media (min-width: 1919px) {.blog-post .section-text {padding-bottom: 50px;padding-left: 0;padding-right: 0;margin-left: -50%;margin-right: -50%;font-size: 17px;}}
+@media (min-width: 1200px ) and (max-width: 1918px ) {.blog-post .section-text {padding-bottom: 50px;padding-left: 0;padding-right: 0;margin-left: -20%;margin-right: -20%;font-size: 15px;}}
+@media (max-width: 721px) {.blog-post .section-text {padding-bottom: 50px;padding-left: 0;padding-right: 0;font-size: 13px;}}
 .blog-post .section-text p {margin-bottom: 30px;}
 .blog-post .section-blog-info {padding-top: 15px;}
 .blog-post .section-blog-info .entry-categories span {font-size: 10px;}
